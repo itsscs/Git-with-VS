@@ -6,8 +6,12 @@ def find_even_or_odd(number):
             return "Odd"
     else:
         return "Zero"
-# Example usage
+
 number = int(input("Enter a number: "))
 result = find_even_or_odd(number)
 print(f"The number {number} is {result}.")
 print("Great Work!")
+if result == "Even":
+    print("😊")
+if result == "Odd":
+        print("😁")
